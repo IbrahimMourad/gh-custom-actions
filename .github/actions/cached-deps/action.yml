@@ -2,9 +2,9 @@ name: 'Get & Cache Dependencies'
 description: 'Get the depencies (via npm) & cache them.'
 inputs:
   caching:
-  description: 'Wether to cache deps or not'
-  required: false
-  default: 'true'
+    description: 'Wether to cache deps or not'
+    required: false
+    default: 'true'
 runs:
   using: 'composite'
   steps:
